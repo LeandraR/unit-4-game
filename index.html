@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collectors Extraordinaire</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="wrapper">
+
+        <h1>Crystal Collectors</h1>
+        <h2>Do you have what it takes to collect the correct amount of crystals to escape the Eternal Palace?</h2>
+        <h3>Or are you doomed to be trapped in the Eternal Palace forever...</h3>
+
+        <p class="instructions">There are four crystals to choose from.  Each one has a hidden value.  Click on them to try to match the number set by the ancient dieties, or risk meeting their wrath...</p>
+
+        <p>The Ancient dieties have chosen:</p>
+        <p class="gameScore">0</p>
+
+        <div class="crystalContainer">
+            <img id = "crystal" src="images/crystal1.jpg" alt="crystal image" class="crystal-image">
+            <img id = "crystal" src="images/crystal2.jpg" alt="crystal image" class="crystal-image">
+            <img id = "crystal" src="images/crystal3.jpg" alt="crystal image" class="crystal-image">
+            <img id = "crystal" src="images/crystal4.jpg" alt="crystal image" class="crystal-image">
+        </div>
+        <div class="scoreBox">
+            <p>Your Total:</p>
+            <p class="scoreCounter">0</p>
+
+            <p>Wins:</p>
+            <p class="winCounter">0</p>
+        </div>
+
+        <button id="tryAgain">Try again</button>
+
+    </div>
+
+
+
+<script src="javascript/game.js"></script>
+
+</body>
+</html>
